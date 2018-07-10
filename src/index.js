@@ -428,7 +428,7 @@ class CreditCardInput extends Component<Props, State> {
     } = this.props;
 
     return (
-      <Container className={containerClassName} styled={containerStyle}>
+      <Container className={containerClassName} style={containerStyle}>
         <FieldWrapper
           id="field-wrapper"
           className={fieldClassName}
